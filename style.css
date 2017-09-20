@@ -29,6 +29,7 @@ body {
 a {
   color: #7A6563;
   text-decoration: none;
+  font-size: 19px;
 }
 
 a:hover {
@@ -39,10 +40,32 @@ a:hover {
 li {
   list-style-type: none;
   display: inline-block;
-  letter-spacing: 25px;
+  letter-spacing: 23px;
   padding-left: 0px;
 
 }
+#sidebar {
+    background-color: #653239;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 175px;
+    text-align: center;
+  }
+
+
+  #sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: list-item;
+  }
+
+  #sidebar a {
+    color: white;
+    font-size: 25px;
+  }
+
 .movie_paragraph {
   font-size: 13px;
 }
@@ -78,6 +101,8 @@ a.card {
 .img-circle {
   border-radius: 50%;
 }
+
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
