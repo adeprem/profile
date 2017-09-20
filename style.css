@@ -1,0 +1,99 @@
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  color: #DF6A6A;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 0px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 10px;
+  margin: 0px;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ECE2D0;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: #7A6563;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D3A588;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  letter-spacing: 25px;
+  padding-left: 0px;
+
+}
+.movie_paragraph {
+  font-size: 13px;
+}
+.table {
+    display: inline-block;
+    border-spacing: 5px 2px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+  background-color: #F4F1EF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #7A6563;
+  padding: 10px 5px 5px 5px;
+  text-align: center;
+}
+
+.card {
+  width: 500px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+  background-color: #F4F1EF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #7A6563;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+a.card {
+  display: inline-block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
