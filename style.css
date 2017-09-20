@@ -74,6 +74,10 @@ li {
     border-spacing: 5px 2px;
 }
 
+#pin {
+  font-size: 5px;
+}
+
 .container {
   width: 500px;   /* This sets the width */
   margin: 20px auto; /* This automatically sets left/right margins */
