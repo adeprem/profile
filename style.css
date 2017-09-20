@@ -106,7 +106,7 @@ a.card {
   border-radius: 50%;
 }
 
-/*#sidebar-right {
+#sidebar-right {
     background-color: #F4F1EF;
     position: fixed;
     left: 1300px;
@@ -120,7 +120,7 @@ a.card {
     box-shadow: 2px 2px 2px 2px #7A6563;
     padding: 5px 5px 5px 5px;
   }
-*/
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
