@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 0;
+}
+
+
+.tab {
+  flex: 1 1 auto;
+  background-color: #653239;
+  color: #F2EFE9;
+  text-align: center;
+}
+
+.tab:first-child {
+  border-radius: 10px 0 0 0; /* clockwise starting top-left*/
+}
+.tab:last-child {
+  border-radius: 0 10px 0 0; /* clockwise starting top-left*/
+}
+
+.tab.active {
+  background-color: #F4F1EF;
+  color: black;
+}
+
+.tab:hover {
+  background-color : #69393E;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.music-image {
+  width: 150px;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.music {
+  transition: all 0.15s ease;
+  /*display: flex;*/
+  align-items: center;
+  padding: 20px;
+}
+.music-body {
+  display: flex;
+}
+
+
+.title-artist {
+  flex: 1 1 auto;
+}
